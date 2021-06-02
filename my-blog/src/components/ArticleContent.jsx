@@ -18,9 +18,9 @@ const articles = [
             `Social psychologists agree that humans tend to perceive faces of their own "race" more acutely than those of other races. 
             Referred to as “cross-race effect” or “other-race effect,” this phenomenon has been supported by a large corpus of evidence.
             Some hypotheses suggest that the amount of exposure to and experience with a specific race group is correlated with the ability 
-            to recognize individuals from that group. This may very well explain how some systems struggle to identify people of color, especially 
-            women. According to the 2018 “Gender Shades” project, algorithms developed by Microsoft, Amazon, and IBM, among others, yielded 
-            disconcerting results. Darker-skinned females were in some cases over 34% more likely to be misidentified than light-skinned males. Why such significant dispairities? How can something as inherently human as perceptual bias be embedded in code?`, 
+            to recognize individuals from that group. Could this explain how some systems struggle to identify people of color, especially 
+            women? According to the 2018 “Gender Shades” project, algorithms developed by Microsoft, Amazon, and IBM, among others, yielded 
+            disconcerting results. Darker-skinned females were in some cases over 34% more likely to be misidentified than light-skinned males. Why such significant disparities? How can something as inherently human as perceptual bias be embedded in code?`, 
             `Nowadays, facial recognition systems rely on machine-learning frameworks to train complex algorithms by feeding them large 
             image datasets. Those images are generally categorized by age, gender, and skin tone among other metrics. The 
             more an algorithm is fed images of diverse faces, the more proficient it becomes in identifying those faces. Conversely, low public availability 
@@ -48,6 +48,17 @@ const articles = [
             mixed, if not polarized responses. Those have compelled experts to reassess not just the conditions in which it should be used, but whether it should 
             be used at all given its current limitations. Answering these questions is urgent. Until then, other Roberts Williams will most likely suffer the 
             consequences.`
+        ],
+        links: [
+
+        ]
+    }, {
+        name: `uyghurs`,
+        title: `Ethics, Surveillance, and the Uyghur Crisis`,
+        date: `June, 1, 2021`,
+        readingTime:`4 minutes`,
+        content: [ 
+    
         ],
         links: [
 

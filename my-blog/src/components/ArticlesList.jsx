@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ArticlesList = ({ articles }) => (
     <>
+    <br/><br/>
     {articles.map((article, key) => (
         <Link className="article-list-item" key={key} to={`/article/${article.name}`}>
             <div className="grid-container">
@@ -17,8 +18,8 @@ const ArticlesList = ({ articles }) => (
                                     <span className="paddingleft">|</span>
                                     <span className="paddingleft">reading time: {article.readingTime}</span>
                                 </div>
-                               
                             </div>
+                            <br/><br/>
                         </th>
                     </table> 
                 </div>
